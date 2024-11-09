@@ -1,7 +1,7 @@
 
 
-export default function page() {
+export default function Inicial() {
   return (
-    <div>page</div>
+    <div className="text-neutral-800">page inicial</div>
   )
 }
