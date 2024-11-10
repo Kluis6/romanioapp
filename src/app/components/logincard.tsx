@@ -8,7 +8,7 @@ export default function Logincard() {
   const [view, setView] = useState<boolean>(true);
   const toggleView = () => setView((prev) => !prev);
   return (
-    <div className="text-center font-bold bg-neutral-50 p-4 shadow relative rounded w-[90vw] md:w-[30vw] space-y-4">
+    <div className="text-center font-bold bg-neutral-50 p-4 shadow relative rounded w-[90vw] md:w-[30vw] space-y-4 ">
       <h1 className="text-xl text-neutral-900">Romaneio App</h1>
       <section className="flex flex-col gap-4">
         <div className="relative flex items-center">
@@ -43,7 +43,7 @@ export default function Logincard() {
           </button>
         </div>
 
-        <Link className="w-full bg-neutral-900 p-2.5 rounded text-base hover:bg-neutral-800 active:bg-neutral-950" href={"/inicial"}>Entrar</Link>
+        <Link className="w-full bg-neutral-900 p-2.5 rounded text-base text-neutral-50 hover:bg-neutral-800 active:bg-neutral-950" href={"/inicial"}>Entrar</Link>
         
         <button className="p-2.5 w-full text-neutral-700 text-sm"> Esqueceu sua senha?</button>
       </section>

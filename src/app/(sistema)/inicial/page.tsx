@@ -1,7 +1,10 @@
+import DriverProfile from "@/app/components/driverprofile";
 
 
 export default function Inicial() {
   return (
-    <div className="text-neutral-800">page inicial</div>
+    <div className="w-full h-full">
+<DriverProfile/>
+    </div>
   )
 }
