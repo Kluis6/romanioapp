@@ -486,12 +486,12 @@ img, video {
   height: 100vh;
 }
 
-.h-\[80vh\] {
-  height: 80vh;
-}
-
 .h-\[90vh\] {
   height: 90vh;
+}
+
+.h-\[93vh\] {
+  height: 93vh;
 }
 
 .h-full {
@@ -502,12 +502,12 @@ img, video {
   height: 100vh;
 }
 
-.max-h-\[100vh\] {
-  max-height: 100vh;
+.max-h-\[94vh\] {
+  max-height: 94vh;
 }
 
-.min-h-\[99vh\] {
-  min-height: 99vh;
+.min-h-\[94vh\] {
+  min-height: 94vh;
 }
 
 .w-\[90vw\] {

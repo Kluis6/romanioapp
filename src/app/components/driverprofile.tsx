@@ -74,8 +74,8 @@ export default function DriverProfile() {
                   <strong>Entregue</strong>
                 </li>{" "}
                 <li>
-                  <span className="font-medium">Entrega 3</span>- Status:{" "}
-                  <strong>Entregue</strong>
+                  <span className="font-medium">Pagamento 2</span>- Status:{" "}
+                  <strong>Efetuado</strong>
                 </li>
               </ul>
             </section>

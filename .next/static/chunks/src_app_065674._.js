@@ -18,91 +18,101 @@ function DeliveryList() {
     _s();
     const [deliveryList, setDeliveryList] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "pt-16 h-[100vh] bg-red-400 w-full relative",
+        className: "pt-16 min-h-[94vh]  h-[100vh]  w-full relative z-0",
         children: [
             deliveryList === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "p-5 h-full",
-                children: "0"
+                className: "h-full",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {}, void 0, false, {
+                        fileName: "[project]/src/app/components/deliverylist.tsx",
+                        lineNumber: 14,
+                        columnNumber: 13
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/deliverylist.tsx",
+                    lineNumber: 13,
+                    columnNumber: 11
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/deliverylist.tsx",
-                lineNumber: 11,
-                columnNumber: 30
+                lineNumber: 12,
+                columnNumber: 9
             }, this),
             deliveryList === 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: "1"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/deliverylist.tsx",
-                lineNumber: 12,
+                lineNumber: 18,
                 columnNumber: 30
             }, this),
             deliveryList === 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: "2"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/deliverylist.tsx",
-                lineNumber: 13,
+                lineNumber: 19,
                 columnNumber: 30
             }, this),
             deliveryList === 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: "3"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/deliverylist.tsx",
-                lineNumber: 14,
+                lineNumber: 20,
                 columnNumber: 30
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-0 w-full",
+                className: "absolute bottom-0 w-full ",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex justify-between items-center",
+                    className: "flex justify-between items-center transition-all",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "button",
-                            className: "bg-slate-400 w-full",
+                            className: `w-full p-2 font-medium ${deliveryList === 0 ? "bg-neutral-900 text-neutral-50" : " bg-neutral-400 text-neutral-900"}`,
                             onClick: ()=>setDeliveryList(0),
-                            children: "0"
+                            children: "Todas"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/deliverylist.tsx",
-                            lineNumber: 18,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "button",
-                            className: "w-full",
+                            className: `w-full p-2 font-medium ${deliveryList === 1 ? "bg-neutral-900 text-neutral-50" : " bg-neutral-400 text-neutral-900"}`,
                             onClick: ()=>setDeliveryList(1),
-                            children: "1"
+                            children: "Ativas"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/deliverylist.tsx",
-                            lineNumber: 25,
+                            lineNumber: 35,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "button",
-                            className: "w-full",
+                            className: `w-full p-2 font-medium ${deliveryList === 2 ? "bg-neutral-900 text-neutral-50" : " bg-neutral-400 text-neutral-900"}`,
                             onClick: ()=>setDeliveryList(2),
-                            children: "2"
+                            children: "Pausadas"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/deliverylist.tsx",
-                            lineNumber: 32,
+                            lineNumber: 46,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "button",
-                            className: "w-full",
+                            className: `w-full p-2 font-medium ${deliveryList === 3 ? "bg-neutral-900 text-neutral-50" : " bg-neutral-400 text-neutral-900"}`,
                             onClick: ()=>setDeliveryList(3),
-                            children: "3"
+                            children: "Entregue"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/deliverylist.tsx",
-                            lineNumber: 39,
+                            lineNumber: 57,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/deliverylist.tsx",
-                    lineNumber: 17,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/deliverylist.tsx",
-                lineNumber: 16,
+                lineNumber: 22,
                 columnNumber: 7
             }, this)
         ]
