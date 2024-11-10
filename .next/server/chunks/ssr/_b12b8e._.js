@@ -439,13 +439,13 @@ function DriverProfile() {
                                             className: "text-2xl text-neutral-700"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/driverprofile.tsx",
-                                            lineNumber: 138,
+                                            lineNumber: 141,
                                             columnNumber: 17
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MdThumbUpOffAlt"], {
                                             className: "text-2xl text-neutral-600"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/driverprofile.tsx",
-                                            lineNumber: 140,
+                                            lineNumber: 143,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
@@ -460,18 +460,18 @@ function DriverProfile() {
                                             className: "text-2xl text-neutral-700"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/driverprofile.tsx",
-                                            lineNumber: 145,
+                                            lineNumber: 151,
                                             columnNumber: 17
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MdThumbDownOffAlt"], {
                                             className: "text-2xl text-neutral-600"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/driverprofile.tsx",
-                                            lineNumber: 147,
+                                            lineNumber: 153,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/driverprofile.tsx",
-                                        lineNumber: 143,
+                                        lineNumber: 146,
                                         columnNumber: 13
                                     }, this)
                                 ]

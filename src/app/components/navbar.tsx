@@ -66,7 +66,7 @@ export default function Navbar() {
       {/* menu mobile */}
       <div>
         <div
-          className={`bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0 h-[90vh] sm:h-[94vh] ease-in duration-200 z-30 w-full top-[3.5rem]  ${
+          className={`bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0 h-[88vh] sm:h-[94vh] ease-in duration-200 z-30 w-full top-[3.5rem]  ${
             menuOpen ? "" : "-translate-x-full "
           }`}
         >
