@@ -122,7 +122,7 @@ function Navbar() {
                                     className: "text-neutral-50 hover:text-neutral-100 active:bg-neutral-200 font-medium",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/ocorrencias",
-                                        children: "Ocorrencias"
+                                        children: "Ocorrências"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/navbar.tsx",
                                         lineNumber: 46,
@@ -189,7 +189,7 @@ function Navbar() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: `bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0 h-[88vh] sm:h-[94vh] ease-in duration-200 z-30 w-full top-[3.5rem]  ${menuOpen ? "" : "-translate-x-full "}`,
+                    className: `bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0 min-h-[94vh] max-h-[94vh] h-[93vh] ease-in duration-200 z-30 w-full top-[3.5rem]  ${menuOpen ? "" : "-translate-x-full "}`,
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                         className: " flex flex-col justify-between h-full ",
                         children: [
@@ -340,7 +340,7 @@ function Navbar() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 className: "ms-8 pt-1 w-full",
                                                 href: "/ocorrencias",
-                                                children: "Ocorrencias"
+                                                children: "Ocorrências"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/navbar.tsx",
                                                 lineNumber: 125,

@@ -43,7 +43,7 @@ export default function Navbar() {
               <Link href={"/chat"}>Chat</Link>
             </li>
             <li className="text-neutral-50 hover:text-neutral-100 active:bg-neutral-200 font-medium">
-              <Link href={"/ocorrencias"}>Ocorrencias</Link>
+              <Link href={"/ocorrencias"}>Ocorrências</Link>
             </li>
             <li className="text-neutral-50 hover:text-neutral-100 active:bg-neutral-200 font-medium">
               <Link href={"/configuracao"}>Configurações</Link>
@@ -66,7 +66,7 @@ export default function Navbar() {
       {/* menu mobile */}
       <div>
         <div
-          className={`bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0 h-[85vh] sm:h-[94vh] ease-in duration-200 z-30 w-full top-[3.5rem]  ${
+          className={`bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0 min-h-[94vh] max-h-[94vh] h-[93vh] ease-in duration-200 z-30 w-full top-[3.5rem]  ${
             menuOpen ? "" : "-translate-x-full "
           }`}
         >
@@ -123,7 +123,7 @@ export default function Navbar() {
               >
                 <IoMdHelpBuoy className="text-2xl absolute " />
                 <Link className="ms-8 pt-1 w-full" href={"/ocorrencias"}>
-                  Ocorrencias
+                  Ocorrências
                 </Link>
               </li>
               <li

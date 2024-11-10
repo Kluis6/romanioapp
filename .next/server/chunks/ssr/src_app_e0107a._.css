@@ -486,6 +486,10 @@ img, video {
   height: 100vh;
 }
 
+.h-\[80vh\] {
+  height: 80vh;
+}
+
 .h-\[90vh\] {
   height: 90vh;
 }
@@ -496,6 +500,14 @@ img, video {
 
 .h-screen {
   height: 100vh;
+}
+
+.max-h-\[100vh\] {
+  max-height: 100vh;
+}
+
+.min-h-\[99vh\] {
+  min-height: 99vh;
 }
 
 .w-\[90vw\] {
@@ -876,12 +888,6 @@ img, video {
 .active\:text-neutral-900:active {
   --tw-text-opacity: 1;
   color: rgb(23 23 23 / var(--tw-text-opacity));
-}
-
-@media (width >= 640px) {
-  .sm\:h-\[94vh\] {
-    height: 94vh;
-  }
 }
 
 @media (width >= 768px) {
