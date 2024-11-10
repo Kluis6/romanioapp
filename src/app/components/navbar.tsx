@@ -12,6 +12,7 @@ import {
   MdMenu,
   MdMonetizationOn,
   MdMoney,
+  MdSettings,
 } from "react-icons/md";
 
 export default function Navbar() {
@@ -130,7 +131,7 @@ export default function Navbar() {
                 className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
                 onClick={toggleMenu}
               >
-                <MdHome className="text-2xl absolute " />
+                <MdSettings className="text-2xl absolute " />
                 <Link className="ms-8 pt-1" href={"/configuracao"}>
                   Configurações
                 </Link>
