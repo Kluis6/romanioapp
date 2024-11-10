@@ -133,15 +133,21 @@ export default function DriverProfile() {
             Gostou dessa dica?
           </h3>
           <div className="flex justify-center gap-2 items-center">
-            <button className=" text-center py-2 transition-all duration-150" onClick={()=>(setIsFavorite(1))}>
+            <button
+              className=" text-center py-2 transition-all duration-150"
+              onClick={() => setIsFavorite(1)}
+            >
               {isFavorite === 1 ? (
                 <MdThumbUp className="text-2xl text-neutral-700" />
               ) : (
                 <MdThumbUpOffAlt className="text-2xl text-neutral-600" />
               )}
             </button>
-            <button className="text-xl text-center py-2" onClick={()=>(setIsFavorite(2))}>
-            {isFavorite === 2 ? (
+            <button
+              className="text-xl text-center py-2"
+              onClick={() => setIsFavorite(2)}
+            >
+              {isFavorite === 2 ? (
                 <MdThumbDown className="text-2xl text-neutral-700" />
               ) : (
                 <MdThumbDownOffAlt className="text-2xl text-neutral-600" />

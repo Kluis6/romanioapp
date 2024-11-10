@@ -1,7 +1,10 @@
+import DeliveryList from '@/app/components/deliverylist'
 import React from 'react'
 
 export default function EntregasPage() {
   return (
-    <div>Entregas</div>
+    <main>
+      <DeliveryList/>
+    </main>
   )
 }

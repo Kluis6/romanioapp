@@ -8,7 +8,7 @@
     {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
     {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
     {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file:///home/luis/Documentos/nextjs/romaneio/src/app/%28sistema%29/inicial/page.tsx"],"sourcesContent":["import DriverProfile from \"@/app/components/driverprofile\";\n\n\nexport default function Inicial() {\n  return (\n    <div className=\"w-full h-full\">\n<DriverProfile/>\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAGe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACnB,cAAA,8OAAC,0IAAA,CAAA,UAAa;;;;;;;;;;AAGd"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file:///home/luis/Documentos/nextjs/romaneio/src/app/%28sistema%29/inicial/page.tsx"],"sourcesContent":["import DriverProfile from \"@/app/components/driverprofile\";\n\nexport default function Inicial() {\n  return (\n    <div className=\"w-full h-full\">\n      <DriverProfile />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,0IAAA,CAAA,UAAa;;;;;;;;;;AAGpB"}},
     {"offset": {"line": 66, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
     {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
     {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},

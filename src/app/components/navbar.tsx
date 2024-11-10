@@ -11,7 +11,6 @@ import {
   MdLocationPin,
   MdMenu,
   MdMonetizationOn,
-  MdMoney,
   MdSettings,
 } from "react-icons/md";
 
@@ -22,7 +21,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="p-4 bg-neutral-900 flex justify-between items-center absolute w-full">
+      <div className="p-4 bg-neutral-900 flex justify-between items-center absolute w-full z-50">
         <h1 className="font-semibold text-base text-neutral-50 md:text-xl">
           Romaneio App
         </h1>{" "}
@@ -67,7 +66,7 @@ export default function Navbar() {
       {/* menu mobile */}
       <div>
         <div
-          className={`bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0 h-[93vh] ease-in duration-200 z-30 w-full top-[3.5rem]  ${
+          className={`bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0 h-[90vh] sm:h-[94vh] ease-in duration-200 z-30 w-full top-[3.5rem]  ${
             menuOpen ? "" : "-translate-x-full "
           }`}
         >
@@ -78,7 +77,7 @@ export default function Navbar() {
                 onClick={toggleMenu}
               >
                 <MdHome className="text-2xl absolute " />
-                <Link className="ms-8 pt-1" href={"/inicial"}>
+                <Link className="ms-8 pt-1 w-full" href={"/inicial"}>
                   Inicial
                 </Link>
               </li>
@@ -87,7 +86,7 @@ export default function Navbar() {
                 onClick={toggleMenu}
               >
                 <MdLocalShipping className="text-2xl absolute " />
-                <Link className="ms-8 pt-1" href={"/entregas"}>
+                <Link className="ms-8 pt-1 w-full" href={"/entregas"}>
                   Entregas
                 </Link>
               </li>
@@ -96,7 +95,7 @@ export default function Navbar() {
                 onClick={toggleMenu}
               >
                 <MdLocationPin className="text-2xl absolute " />
-                <Link className="ms-8 pt-1" href={"/roteiro"}>
+                <Link className="ms-8 pt-1 w-full" href={"/roteiro"}>
                   Roteiro
                 </Link>
               </li>
@@ -105,7 +104,7 @@ export default function Navbar() {
                 onClick={toggleMenu}
               >
                 <MdMonetizationOn className="text-2xl absolute " />
-                <Link className="ms-8 pt-1" href={"/financeiro"}>
+                <Link className="ms-8 pt-1 w-full" href={"/financeiro"}>
                   Financeiro
                 </Link>
               </li>
@@ -114,7 +113,7 @@ export default function Navbar() {
                 onClick={toggleMenu}
               >
                 <MdChat className="text-2xl absolute " />
-                <Link className="ms-8 pt-1" href={"/chat"}>
+                <Link className="ms-8 pt-1 w-full" href={"/chat"}>
                   Chat
                 </Link>
               </li>
@@ -123,7 +122,7 @@ export default function Navbar() {
                 onClick={toggleMenu}
               >
                 <IoMdHelpBuoy className="text-2xl absolute " />
-                <Link className="ms-8 pt-1" href={"/ocorrencias"}>
+                <Link className="ms-8 pt-1 w-full" href={"/ocorrencias"}>
                   Ocorrencias
                 </Link>
               </li>
@@ -132,13 +131,18 @@ export default function Navbar() {
                 onClick={toggleMenu}
               >
                 <MdSettings className="text-2xl absolute " />
-                <Link className="ms-8 pt-1" href={"/configuracao"}>
+                <Link className="ms-8 pt-1 w-full" href={"/configuracao"}>
                   Configurações
                 </Link>
               </li>
             </ul>
-           
-            <Link className="bg-red-600 p-2 rounded text-base font-bold text-neutral-50 text-center" href={"/"}>Sair</Link>
+
+            <Link
+              className="bg-red-600 p-2 rounded text-base font-bold text-neutral-50 text-center"
+              href={"/"}
+            >
+              Sair
+            </Link>
           </nav>
         </div>
       </div>
