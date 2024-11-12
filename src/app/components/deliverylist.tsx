@@ -2,17 +2,16 @@
 
 import { useState } from "react";
 import { DiVim } from "react-icons/di";
+import ListDeliveryAll from "./listdeliveryall";
 
 export default function DeliveryList() {
   const [deliveryList, setDeliveryList] = useState(0);
 
   return (
-    <div className="pt-16 min-h-[94vh]  h-[100vh]  w-full relative z-0">
+    <div className="pt-[3.5rem] min-h-[94vh]  h-[100vh]  w-full relative z-0">
       {deliveryList === 0 && (
-        <div className="h-full">
-          <ul>
-            <li></li>
-          </ul>
+        <div className="h-full w-full">
+          <ListDeliveryAll />
         </div>
       )}
       {deliveryList === 1 && <div>1</div>}
