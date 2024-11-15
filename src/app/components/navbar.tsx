@@ -64,87 +64,85 @@ export default function Navbar() {
       </div>
 
       {/* menu mobile */}
-      <div>
-        <div
-          className={`bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0 min-h-[94vh] max-h-[94vh] h-[93vh] ease-in duration-200 z-30 w-full top-[3.5rem]  ${
-            menuOpen ? "" : "-translate-x-full "
-          }`}
-        >
-          <nav className=" flex flex-col justify-between h-full ">
-            <ul className="flex flex-col divide-y">
-              <li
-                className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
-                onClick={toggleMenu}
-              >
-                <MdHome className="text-2xl absolute " />
-                <Link className="ms-8 pt-1 w-full" href={"/inicial"}>
-                  Inicial
-                </Link>
-              </li>
-              <li
-                className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
-                onClick={toggleMenu}
-              >
-                <MdLocalShipping className="text-2xl absolute " />
-                <Link className="ms-8 pt-1 w-full" href={"/entregas"}>
-                  Entregas
-                </Link>
-              </li>
-              <li
-                className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
-                onClick={toggleMenu}
-              >
-                <MdLocationPin className="text-2xl absolute " />
-                <Link className="ms-8 pt-1 w-full" href={"/roteiro"}>
-                  Roteiro
-                </Link>
-              </li>
-              <li
-                className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
-                onClick={toggleMenu}
-              >
-                <MdMonetizationOn className="text-2xl absolute " />
-                <Link className="ms-8 pt-1 w-full" href={"/financeiro"}>
-                  Financeiro
-                </Link>
-              </li>
-              <li
-                className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
-                onClick={toggleMenu}
-              >
-                <MdChat className="text-2xl absolute " />
-                <Link className="ms-8 pt-1 w-full" href={"/chat"}>
-                  Chat
-                </Link>
-              </li>
-              <li
-                className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
-                onClick={toggleMenu}
-              >
-                <IoMdHelpBuoy className="text-2xl absolute " />
-                <Link className="ms-8 pt-1 w-full" href={"/ocorrencias"}>
-                  Ocorrências
-                </Link>
-              </li>
-              <li
-                className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
-                onClick={toggleMenu}
-              >
-                <MdSettings className="text-2xl absolute " />
-                <Link className="ms-8 pt-1 w-full" href={"/configuracao"}>
-                  Configurações
-                </Link>
-              </li>
-            </ul>
-
-            <Link
-              className="bg-red-600 p-2 rounded text-base font-bold text-neutral-50 text-center"
-              href={"/"}
+      <div
+        className={`bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0  ease-in duration-200 z-30 w-full top-[3.5rem] ${
+          menuOpen ? "" : "-translate-x-full "
+        }`}
+      >
+        <nav className="flex flex-col justify-between h-full">
+          <ul className="flex flex-col divide-y">
+            <li
+              className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
+              onClick={toggleMenu}
             >
-              Sair
-            </Link>
-          </nav>
-        </div>
+              <MdHome className="text-2xl absolute " />
+              <Link className="ms-8 pt-1 w-full" href={"/inicial"}>
+                Inicial
+              </Link>
+            </li>
+            <li
+              className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
+              onClick={toggleMenu}
+            >
+              <MdLocalShipping className="text-2xl absolute " />
+              <Link className="ms-8 pt-1 w-full" href={"/entregas"}>
+                Entregas
+              </Link>
+            </li>
+            <li
+              className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
+              onClick={toggleMenu}
+            >
+              <MdLocationPin className="text-2xl absolute " />
+              <Link className="ms-8 pt-1 w-full" href={"/roteiro"}>
+                Roteiro
+              </Link>
+            </li>
+            <li
+              className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
+              onClick={toggleMenu}
+            >
+              <MdMonetizationOn className="text-2xl absolute " />
+              <Link className="ms-8 pt-1 w-full" href={"/financeiro"}>
+                Financeiro
+              </Link>
+            </li>
+            <li
+              className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
+              onClick={toggleMenu}
+            >
+              <MdChat className="text-2xl absolute " />
+              <Link className="ms-8 pt-1 w-full" href={"/chat"}>
+                Chat
+              </Link>
+            </li>
+            <li
+              className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
+              onClick={toggleMenu}
+            >
+              <IoMdHelpBuoy className="text-2xl absolute " />
+              <Link className="ms-8 pt-1 w-full" href={"/ocorrencias"}>
+                Ocorrências
+              </Link>
+            </li>
+            <li
+              className="text-neutral-800 flex  relative items-center  hover:bg-neutral-200  p-2 rounded hover:text-neutral-700 active:text-neutral-900 active:bg-neutral-300 font-bold text-base"
+              onClick={toggleMenu}
+            >
+              <MdSettings className="text-2xl absolute " />
+              <Link className="ms-8 pt-1 w-full" href={"/configuracao"}>
+                Configurações
+              </Link>
+            </li>
+          </ul>
+
+          <Link
+            className="bg-red-600 p-2 rounded text-base font-bold text-neutral-50 text-center"
+            href={"/"}
+          >
+            Sair
+          </Link>
+        </nav>
       </div>
     </>
   );

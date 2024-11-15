@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function EntregasPage() {
   return (
-    <main>
+    <main className='w-full h-full'>
       <DeliveryList/>
     </main>
   )

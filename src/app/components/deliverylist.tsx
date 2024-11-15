@@ -1,14 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { DiVim } from "react-icons/di";
 import ListDeliveryAll from "./listdeliveryall";
 
 export default function DeliveryList() {
   const [deliveryList, setDeliveryList] = useState(0);
 
   return (
-    <div className="pt-[3.5rem] min-h-[94vh]  h-[100vh]  w-full relative z-0">
+    <div className="top-[3.5rem] h-[calc(100%-3.5rem)] w-full relative z-0">
       {deliveryList === 0 && (
         <div className="h-full w-full">
           <ListDeliveryAll />
