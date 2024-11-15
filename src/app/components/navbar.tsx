@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="p-4 bg-neutral-900 flex justify-between items-center absolute w-full z-50">
+      <div className="p-4 bg-neutral-900 flex justify-between items-center sticky w-full z-40">
         <h1 className="font-semibold text-base text-neutral-50 md:text-xl">
           Romaneio App
         </h1>{" "}
@@ -65,7 +65,7 @@ export default function Navbar() {
 
       {/* menu mobile */}
       <div
-        className={`bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0  ease-in duration-200 z-30 w-full top-[3.5rem] ${
+        className={`bg-neutral-50 transition-all border-r p-4 border-neutral-300 absolute left-0 h-[calc(100%-3.5rem)] ease-in duration-200 z-30 w-full top-[3.5rem] ${
           menuOpen ? "" : "-translate-x-full "
         }`}
       >

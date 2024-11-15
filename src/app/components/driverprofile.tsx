@@ -16,7 +16,7 @@ export default function DriverProfile() {
   const [isFavorite, setIsFavorite] = useState(0);
   return (
     <>
-      <div className="overflow-hidden pt-14 flex flex-col">
+      <div className="overflow-hidden flex flex-col">
         <div className="w-full h-full">
           <Image
             src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -109,7 +109,7 @@ export default function DriverProfile() {
 
       {/* modal info */}
       <div
-        className={`fixed bottom-0 right-0 w-full h-full bg-neutral-200  transition-all duration-200  shadow-lg z-50 ${
+        className={`fixed bottom-0 right-0 w-full h-full bg-neutral-200  transition-all duration-200 z-50 ${
           isExpanded ? "" : "translate-y-full "
         }`}
       >
