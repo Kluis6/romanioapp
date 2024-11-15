@@ -90,47 +90,59 @@ export default function ListDeliveryAll() {
             <MdClose className="text-xl text-neutral-800" />
           </button>
         </div>
-        <section className="h-full w-full p-4">
-          {step}
-          <div className="flex items-center justify-between space-x-4">
-            <button
-              onClick={() => setStep(step >= 0 ? step - 1 : step)}
-              disabled={step === 0 ? true : false}
-              type="button"
-              className={`p-2.5 bg-neutral-900 disabled:bg-neutral-600 block text-neutral-50 w-full transition-all`}
-            >
-              v
-            </button>
-            <div className="flex items-center justify-between space-x-4 transition-all duration-300 w-full">
-              <div
-                className={`size-3   ${
-                  step === 0 ? "bg-neutral-800" : "bg-neutral-300"
-                }  rounded-full outline-2 outline outline-neutral-800`}
-              ></div>
-              <div
-                className={`size-3   ${
-                  step === 1 ? "bg-neutral-800" : "bg-neutral-300"
-                }  rounded-full outline outline-2 outline-neutral-800`}
-              ></div>
-              <div
-                className={`size-3   ${
-                  step === 2 ? "bg-neutral-800" : "bg-neutral-300"
-                }  rounded-full outline outline-2 outline-neutral-800`}
-              ></div>
-              <div
-                className={`size-3   ${
-                  step === 3 ? "bg-neutral-800" : "bg-neutral-300"
-                }  rounded-full outline outline-2 outline-neutral-800`}
-              ></div>
-            </div>
-            <button
-              onClick={() => setStep(step >= 0 && step <= 2 ? step + 1 : step)}
-              type="button"
-              className="p-2.5 bg-neutral-900 block text-neutral-50 w-full"
-            >
-              v
-            </button>
+        <section className="h-full w-full p-4 relative">
+          <div className="w-full h-[84vh] transition-all duration-700">
+            {step === 0 && <div className="bg-red-500 h-full w-full"></div>}
+            {step === 1 && (
+              <div className="bg-yellow-500 h-full w-full -translate-x"></div>
+            )}
+            {step === 2 && <div className="bg-green-500 h-full w-full"></div>}
+            {step === 3 && <div className="bg-purple-500 h-full w-full"></div>}
+            {step === 4 && <div className="bg-amber-500 h-full w-full"></div>}
           </div>
+          <section>
+            <div className="flex items-center justify-between space-x-4">
+              <button
+                onClick={() => setStep(step >= 0 ? step - 1 : step)}
+                disabled={step === 0 ? true : false}
+                type="button"
+                className={`p-2.5 bg-neutral-900 disabled:bg-neutral-600 block text-neutral-50 w-full transition-all`}
+              >
+                v
+              </button>
+              <div className="flex items-center justify-between space-x-4 transition-all duration-300 w-full">
+                <div
+                  className={`size-3   ${
+                    step === 0 ? "bg-neutral-800" : "bg-neutral-300"
+                  }  rounded-full outline-2 outline outline-neutral-800`}
+                ></div>
+                <div
+                  className={`size-3   ${
+                    step === 1 ? "bg-neutral-800" : "bg-neutral-300"
+                  }  rounded-full outline outline-2 outline-neutral-800`}
+                ></div>
+                <div
+                  className={`size-3   ${
+                    step === 2 ? "bg-neutral-800" : "bg-neutral-300"
+                  }  rounded-full outline outline-2 outline-neutral-800`}
+                ></div>
+                <div
+                  className={`size-3   ${
+                    step === 3 ? "bg-neutral-800" : "bg-neutral-300"
+                  }  rounded-full outline outline-2 outline-neutral-800`}
+                ></div>
+              </div>
+              <button
+                onClick={() =>
+                  setStep(step >= 0 && step <= 2 ? step + 1 : step)
+                }
+                type="button"
+                className="p-2.5 bg-neutral-900 block text-neutral-50 w-full"
+              >
+                v
+              </button>
+            </div>
+          </section>
         </section>
       </div>
     </>
