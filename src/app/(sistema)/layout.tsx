@@ -27,9 +27,9 @@ export default function Layout({
   return (
     <html lang="pt-br">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased relative overflow-hidden bg-neutral-300 `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative overflow-hidden bg-neutral-300 h-screen w-screen `}
       >
-        <Navbar/>
+        <Navbar />
         {children}
       </body>
     </html>
