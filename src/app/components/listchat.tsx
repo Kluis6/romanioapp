@@ -75,13 +75,13 @@ export default function ListChat() {
 
       <div
         onClick={() => setChat(!chat)}
-        className={`bg-neutral-300 fixed right-0 top-0 w-full h-full transition-all duration-200 ease-in ${
+        className={`bg-neutral-300 fixed right-0 top-3 w-full h-full transition-all duration-200 ease-in ${
           chat ? "" : " translate-x-full"
         }`}
       >
         {chat && (
-          <div className="w-full h-full flex justify-center items-center">
-            <p className="text-neutral-50">ssfsfffsf</p>
+          <div className="w-full h-full">
+            <div className="bg-neutral-50 p-2">ddd</div>
           </div>
         )}
       </div>
