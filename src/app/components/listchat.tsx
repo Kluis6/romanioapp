@@ -7,7 +7,7 @@ export default function ListChat() {
   return (
     <>
       <div
-        className={`h-full w-full transition-all duration-200 ${
+        className={`h-full w-full transition-all duration-200 ease-in-out ${
           chat ? "-translate-x-full" : ""
         }`}
       >
@@ -75,7 +75,7 @@ export default function ListChat() {
 
       <div
         onClick={() => setChat(!chat)}
-        className={`bg-slate-500 fixed right-0 top-0 w-full h-full transition-all duration-200 ${
+        className={`bg-neutral-300 fixed right-0 top-0 w-full h-full transition-all duration-200 ease-in ${
           chat ? "" : " translate-x-full"
         }`}
       >
