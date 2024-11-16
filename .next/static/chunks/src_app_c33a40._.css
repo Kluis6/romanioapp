@@ -659,6 +659,22 @@ img, video {
   overflow: hidden;
 }
 
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-y-visible {
+  overflow-y: visible;
+}
+
+.overscroll-auto {
+  overscroll-behavior: auto;
+}
+
+.overscroll-contain {
+  overscroll-behavior: contain;
+}
+
 .text-clip {
   text-overflow: clip;
 }

@@ -5,7 +5,9 @@ import { MdClose, MdExpandLess, MdExpandMore } from "react-icons/md";
 
 export default function ListDeliveryAll() {
   const [drop, setDrop] = useState<any>(null);
-  const items: number[] = [1, 2, 3, 4, 5];
+  const items: number[] = [
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+  ];
   const [expandedItems, setExpandedItems] = useState<boolean>(false);
   const [step, setStep] = useState<number>(0);
 
@@ -15,7 +17,7 @@ export default function ListDeliveryAll() {
 
   return (
     <>
-      <ul className="transition-all duration-300 divide-y">
+      <ul className="transition-all duration-300 divide-y overscroll-contain">
         {items.map((value, index) => (
           <li
             key={index}
