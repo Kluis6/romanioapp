@@ -659,6 +659,10 @@ img, video {
   overflow: hidden;
 }
 
+.overscroll-contain {
+  overscroll-behavior: contain;
+}
+
 .text-clip {
   text-overflow: clip;
 }

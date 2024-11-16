@@ -17,7 +17,7 @@ export default function ListDeliveryAll() {
 
   return (
     <>
-      <ul className="transition-all duration-300 divide-y overscroll-contain">
+      <ul className="transition-all duration-300 divide-y  h-screen ">
         {items.map((value, index) => (
           <li
             key={index}
@@ -29,7 +29,7 @@ export default function ListDeliveryAll() {
                 : value === 3
                 ? "bg-red-600"
                 : "bg-green-600"
-            } relative`}
+            } relative `}
           >
             <button
               className="justify-between items-center flex p-4 w-full transition-all duration-300"
@@ -75,6 +75,7 @@ export default function ListDeliveryAll() {
           </li>
         ))}
       </ul>
+
       {/* modal-info-delivery */}
       <div
         className={`fixed bottom-0 right-0 w-full h-full bg-neutral-200  transition-all duration-200 z-50 ${
