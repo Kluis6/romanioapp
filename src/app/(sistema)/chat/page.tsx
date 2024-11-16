@@ -1,7 +1,9 @@
-import React from 'react'
+import ListChat from "@/app/components/listchat";
 
 export default function ChatPage() {
   return (
-    <div>chat</div>
-  )
+    <main className="w-full h-full">
+      <ListChat />
+    </main>
+  );
 }
